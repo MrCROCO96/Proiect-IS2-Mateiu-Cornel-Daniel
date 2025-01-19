@@ -1,0 +1,6 @@
+﻿services:
+  gameticketing:
+    image: gameticketing
+    build:
+      context: .
+      dockerfile: GameTicketing/Dockerfile
